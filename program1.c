@@ -1,6 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    printf("hello, world");
+    int a, b;
+    printf("hello, world\n");
+    printf("enter 2 numbers : ");
+    scanf("%d %d", &a, &b);
+    printf("sum of the numbers is : %d", a + b);
     return 0;
 }
